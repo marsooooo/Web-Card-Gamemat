@@ -26,7 +26,7 @@ export default function Home() {
     setIsConnecting(true)
     setError(null)
 
-    const socket = new WebSocket("ws://localhost:3002")
+    const socket = new WebSocket("ws://sencybility.marceau-tison.com/")
     wsRef.current = socket
 
     socket.onopen = () => {
@@ -80,7 +80,7 @@ export default function Home() {
     setIsConnecting(true)
     setError(null)
 
-    const socket = new WebSocket("ws://localhost:3002")
+    const socket = new WebSocket("ws://sencybility.marceau-tison.com/")
     wsRef.current = socket
 
     socket.onopen = () => {
