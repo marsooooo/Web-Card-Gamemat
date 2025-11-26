@@ -9,7 +9,6 @@ const _geistMono = Geist_Mono({ subsets: ["latin"] })
 export const metadata: Metadata = {
   title: "SenCybility - Game Mat",
   description: "Digital game mat for the SenCybility cybersecurity strategy card game",
-    generator: 'v0.app'
 }
 
 export const viewport: Viewport = {
