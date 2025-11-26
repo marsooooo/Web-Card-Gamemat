@@ -123,9 +123,9 @@ function resolveAttacks(game: GameState): string[] {
   return events
 }
 
-const wss = new WebSocketServer({ port: 3001 })
+const wss = new WebSocketServer({ port: 3002 })
 
-console.log("[Server] WebSocket server starting on port 3001...")
+console.log("[Server] WebSocket server starting on port 3002...")
 
 wss.on("connection", (ws) => {
   let currentGameCode: string | null = null
@@ -469,4 +469,4 @@ wss.on("connection", (ws) => {
   })
 })
 
-console.log("[Server] WebSocket server running on port 3001")
+console.log("[Server] WebSocket server running on port 3002")
